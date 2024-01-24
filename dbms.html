@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="dbms.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script>
+          var e = angular.module("myapp",[]);
+        e.controller("myController", function($scope){
+
+        })
+    </script>
+</head>
+<body>
+    <header >
+        <div class="b"> <h1>Information</h1></div>
+    </header>
+    <hr>
+
+
+
+    <main>
+        <h1 class="b">Infant Information</h1>
+
+
+    <div class="infant b">
+
+
+        <div class="info1 ">
+            <label>Infant ID&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp; <input class="in" type="text"></label><br><br>
+            <label>First Name :&nbsp;&nbsp;&nbsp; <input class="in" type="text"></label><br><br>
+            <label>Last Name : &nbsp;&nbsp;&nbsp;<input class="in" type="text"></label><br><br>
+            <label>DOB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; <input class="in" type="text"></label><br><br>
+            <label>Time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; <input class="in" type="text"></label><br><br>
+            <label>Gender  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp; <input class="in" type="text"></label><br><br>
+        </div>
+        
+        <div class="info2">
+            <label>Weight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp; <input class="in" type="text"></label><br><br>
+            <label>Height&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp; <input class="in" type="text"></label><br><br>
+            <label>Blood Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;<input class="in" type="text"></label><br><br>
+            <label>Hospital Name:&nbsp;&nbsp;&nbsp; <input class="in" type="text"></label><br><br>
+            <label>Parent_ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; <input class="in" type="text"></label><br><br>
+            <label>Doctor_ID  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp; <input class="in" type="text"></label><br><br>
+        </div>   
+    </div><hr>
+
+
+
+    <div>
+    <h1 class="b">Parents Information</h1>
+   
+        <h3><label class="h">Parents ID : <input type="text"></label></h3>
+        <div class="infant">
+        <div class="father">
+            <h2>Father Info :-</h2>
+        
+        <label>First Name :&nbsp;&nbsp; <input type="text"></label><br><br>
+        <label>Last Name :&nbsp;&nbsp; <input type="text"></label><br><br>
+        <label>email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; <input type="text"></label><br><br>
+        <label>Phone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; <input type="text"></label><br><br>
+        </div>
+        <hr>
+
+        <div class="mother">
+            <h2>Mother Info:-</h2>
+            <label>First Name :&nbsp;&nbsp; <input type="text"></label><br><br>
+            <label>Last Name : &nbsp;&nbsp;<input type="text"></label><br><br>
+            <label>email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;<input type="email"></label><br><br>
+            <label>Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;<input type="number"></label><br><br>
+        </div>
+    </div>
+    <label class="add">Address : <input type="te"></label><br><br>
+    </div><hr>
+            
+
+    <div>
+        <h1>Doctor Information</h1>
+        <div class="infant">
+            <div class="father">
+                <label>Doctor ID &nbsp;&nbsp;: &nbsp;&nbsp; <input type="text"></label><br><br>
+                <label>First Name :  &nbsp;&nbsp;&nbsp;<input type="text"></label><br><br>
+                <label>Last Name :  &nbsp;&nbsp; &nbsp;<input type="text"></label><br><br>
+            </div>
+
+            <div class="mother">
+                <label>Specializations : &nbsp;&nbsp; <input type="text"></label><br><br>
+                <label>Email &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; : &nbsp;&nbsp;  <input type="email"></label><br><br>
+                <label>Phone &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; : &nbsp;&nbsp;  <input type="number"></label><br><br>
+            </div>
+        </div>
+    </div>
+    <hr>
+    </main>
+    
+</body>
+</html>
