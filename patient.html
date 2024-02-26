@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Details</title>
+    <link rel="stylesheet" href="patient.css">
+    <style>
+       
+        .add{
+            padding: 75px;
+            padding-right: 225px;
+        }
+        .father{
+            margin-left: 150px;
+
+        }
+        .mother{
+            margin-left: 25px;
+        }
+
+        .addre{
+            margin: 25px;
+        }
+        h1{
+            text-align: center;
+        }
+
+        
+
+        .parents{
+            margin-left: 25px;
+            margin: 15px;
+            padding: 25px;
+            margin-right: 500px;
+        }
+        .infant{
+            margin-left: 25px;
+            margin: 15px;
+            padding: 25px;
+            margin-right: 500px;
+        }
+
+        .details{
+            margin: 25px;
+            margin-left:300px;
+        }
+
+        .det{
+            margin: 25px;
+        }
+
+        .home{
+            color: black;
+            text-decoration: none;
+        }
+        .cont{
+            color: black;
+            text-decoration: none;
+        }
+        .sha{
+            box-shadow: 5px 5px 5px grey;
+        }
+        .sub{
+            padding: 25px;
+            margin: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>                         
+        <div class="sha">
+            <nav class="li">
+                <ul class="flex center">
+                   <li><a class="home" href="home.html">HOME</a></li>
+                   <li>PATIENTS DETAILS</li>
+                   <div class="doctor">
+                    <div class="doct"><li>DOCTORS DETAILS</li>
+                        <div class="login">
+                        <a href="#">User Login</a>
+                        <a href="hospitallogin.html">Hospital Login</a>
+                        <a href="admin.html">Admin Login</a>
+                    </div>
+                </div>
+                </div>
+                   <li><a class="cont" href="contact.html">CONTACT US</a></li>
+                   <button>Book Appointment</button>
+                </ul>
+            </nav>
+        </div>
+    </header>    
+
+
+    <main>
+    <div class="parents">
+        <h1>PARENTS DETAILS</h1>
+    <div class="flex">
+        <div class="mother">
+            <label>Mother's Name:<input type="text"></label><br><br>
+            <label>Mother's Age:&nbsp;&nbsp;&nbsp;<input type="number"></label><br><br>
+            <label>Phone Number:<input type="number"></label><br><br>
+            <label>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<input type="email"></label>
+        </div>
+        <div class="father">
+            <label>Father's Name:<input type="text"></label><br><br>
+            <label>Father's Age:&nbsp;&nbsp;&nbsp;<input type="number"></label><br><br>
+            <label>Phone Number:<input type="number"></label><br><br>
+            <label>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<input type="email"></label>
+        </div>
+    </div>
+    <div class="flex addre"> 
+        <address>Address :</address><input class="add" type="text">
+    </div>
+    </div>
+   
+
+
+
+    <div class="infant">
+      <h1>INFANT DETAILS</h1>
+
+      <div class="flex">
+        <div class="det">
+            <label>Infant ID : <input type="text"></label><br><br>
+            <label>Date : <input type="date"></label><br><br>
+            <label>Time :<input type="time"></label><br>
+            <p>Gender:- &nbsp;
+            <label><input type="radio" name="male">Male  </label>
+            <label><input type="radio" name="male">Female  </label>
+            </p>
+            <label>Date In : <input type="date"></label><br><br>
+        </div>
+
+        
+      <div class="details">
+        <label>Doctor's Name : <input type="text"></label><br><br>
+        <label>Type of Delivery:<select>
+            <option>Normal</option>
+            <option>C-Section</option>
+            <option>VBAC</option>
+            <option>Vacuum</option>
+        </select> </label><br><br>
+        <label>Disease  : <input type="text"> </label><br><br>
+        <label>Vaccination:<input type="text"></label><br><br>
+        <label>Date Out: <input type="date"></label>
+      </div>
+      </div>
+      
+    </div>
+    <button class="sub">Submit</button>
+   
+
+    </main>
+</body>
+</html>
+

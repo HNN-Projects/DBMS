@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin: 25px;
+}
+
+.top{
+    background-color:rgb(237, 152, 137);
+    padding: 5px;
+
+
+}
+.li{
+    align-items: center;
+}
+
+button{
+    background-color: rgb(237, 152, 137);
+    color: white;
+    border-color: rgb(237, 152, 137);
+}
+
+
+.text{
+    text-align: center;
+}
+
+
+.login{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.login a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.login a:hover{
+    background-color: #f1f1f1;
+}
+
+.doctor:hover .login{
+    display: block;
+}
+
+.doctor:hover .doct{
+    background-color: rgb(237, 152, 137);
+}
+
+
+
+
+

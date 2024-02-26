@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSPITAL  LOGIN</title>
+    <link rel="stylesheet" href="hospitallogin.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .flex{
+            display: flex;
+        }
+
+        ul li{
+            list-style: none;
+            margin: 25px;
+        }
+
+        .top{
+            background-color: rgb(237, 152, 137);
+            padding: 5px;
+        
+        
+        }
+        .li{
+            align-items: center;
+        }
+
+        button{
+            background-color: rgb(237, 152, 137);
+            color: white;
+            border-color: rgb(237, 152, 137);
+        }
+
+        .main{
+            padding: 150px;
+            align-items: center;
+        }
+
+        .text{
+            text-align: center;
+        }
+
+        .a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        .hl{
+            color: white;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="li">
+                <ul class="flex">
+                    <a  class="a"  href="home.html"><li>HOME</li></a>
+                   <li><a class="pat" href="patient.html">PATIENTS DETAILS</a></li>
+                   <div class="doctor">
+                    <div class="doct"><li>DOCTORS DETAILS</li>
+                        <div class="login">
+                        <a href="#">User Login</a>
+                        <a href="hospitallogin.html">Hospital Login</a>
+                        <a href="admin.html">Admin Login</a>
+                    </div>
+                    </div>
+                   </div>
+                   <li></li>
+                   <li>SIGN IN</li>
+                   <li>CONTACT </li>
+                   <button>BOOK APPOINTMENT</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="text">
+        <hr>
+        <h1>Hospital Login</h1>
+
+        <input type="email" placeholder="enter your email"><br><br>
+        <input type="password" placeholder="enter password"><br><br>
+        <button><a class="hl" href="hospitaluser.html">Login</a></button>
+    </main>
+</body>
+</html>
